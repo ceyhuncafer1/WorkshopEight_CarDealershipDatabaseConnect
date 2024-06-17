@@ -6,7 +6,7 @@ public class LeaseContract {
     private String leaseName;
     private String vin;
 
-    public LeaseContract(int id, String vin, String leaseName) {
+    public LeaseContract(String vin, String leaseName) {
         this.vin = vin;
         this.leaseName = leaseName;
         this.id = id;
